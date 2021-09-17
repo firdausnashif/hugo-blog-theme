@@ -23,7 +23,7 @@ image:
   focal_point: ""
   placement: 2
   preview_only: false
-  filename: download.jfif
+  filename: featured.jpg
 ---
 ## Langkah
 
