@@ -1,14 +1,14 @@
 ---
-title: Display Jupyter Notebooks with Academic
-subtitle: Learn how to blog in Academic using Jupyter notebooks
 summary: Learn how to blog in Academic using Jupyter notebooks
 authors:
-- admin
+  - admin
+lastMod: 2019-09-05T00:00:00Z
+title: Cara Setting Totolink N200RE Menjadi Repeater
+subtitle: Cara mudah setting totolnk n200re menjadi repeater sebagai berikut
+date: 2019-02-05T00:00:00Z
 tags: []
 categories: []
 projects: []
-date: "2019-02-05T00:00:00Z"
-lastMod: "2019-09-05T00:00:00Z"
 image:
   caption: ""
   focal_point: ""
