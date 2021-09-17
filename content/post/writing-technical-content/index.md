@@ -1,309 +1,57 @@
 ---
-title: Writing technical content in Academic
+title: 5 Makanan VIral di Jogja
 date: 2019-07-12
 math: true
 diagram: true
 highlight: true
+subtitle: Berikut daftar - daftar 5 makanan yang sedang viral di jogja akhir - akhhir ini
 image:
   placement: 3
-  caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
+  caption: "Image credit: [**John Moeses
+    Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)"
 ---
+<!--StartFragment-->
 
-Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.
+**1. Mie Ayam Bakso Balungan dan Tetelan**
 
-**Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.**
+Kuliner ini disebut juga sebagai Mie Ayam Porsi Ugal-ugalan karena porsinya yang super banyak. Meski demikian, harganya tetap sangat terjangkau.
 
-On this page, you'll find some examples of the types of technical content that can be rendered with Academic.
+Khas dari Mie Ayam ini tentu saja terletak pada mienya dan ayam yang sangat banyak. Selain itu diberi pula topping tetelan.
 
-## Examples
+Di warung ini pun menjual berbagai macam bakso seperti bakso urat, bakso mangkok, bakso mercon, bakso iga, dan bakso selimut kabut.
 
-### Code
+Bagi kamu yang penasaran, bisa datang ke Jalan Kawijo, No. 4, Serut Pengasih, Kulon Progo, [Jogja](https://travel.tribunnews.com/tag/jogja "Jogja"). Untuk harganya sangat terjangkau dimulai dari Rp 9.000 hingga Rp 15.000.
 
-Academic supports a Markdown extension for highlighting code syntax. You can enable this feature by toggling the `highlight` option in your `config/_default/params.toml` file.
+**2. Nasi Soo'on Sambel Joos Bu Roso**
 
-    ```python
-    import pandas as pd
-    data = pd.read_csv("data.csv")
-    data.head()
-    ```
+Makanan yang satu ini terbilang sangat sederhana. Hanya berisikan nasi, sambal, soun, dan gorengan. Namun pembelinya sangat banyak.
 
-renders as
+Konon, makanan sederhana ini terkenal lezat. Tak hanya itu, harganya pun sangat murah yakni Rp 5.000 per porsinya.
 
-```python
-import pandas as pd
-data = pd.read_csv("data.csv")
-data.head()
-```
+Warung ini berlokasi di Jalan Brigjen Katmso, Prawirodirjan, Gondoman, [Jogja](https://travel.tribunnews.com/tag/jogja "Jogja"). Warungnya hanya buka dari pukul 16.00 hingga 18.00 WIB.
 
-### Charts
+**3. Warung Kopi Klotok**
 
-Academic supports the popular [Plotly](https://plot.ly/) chart format.
+Warung ini memang terkenal karena kelezatan dan harga makanannya yang murah. Dengan berbekal Rp 11.500, kamu bisa makan sepuasnya.
 
-Save your Plotly JSON in your page folder, for example `chart.json`, and then add the `{{</* chart data="chart" */>}}` shortcode where you would like the chart to appear.
+Isi makanannya yakni nasi, sayur lodeh, telur, tempe, sayur asem, sop, sambel terasi, hingga gorengan. Menu lainnya yang juara adalah pisang goreng.
 
-Demo:
+Warung Kopi Klotok berlokasi di Jalan Kaliurang, Nomor KM 16, Area Sawah, Pakembinangun, [Sleman](https://travel.tribunnews.com/tag/sleman "Sleman") [Jogja](https://travel.tribunnews.com/tag/jogja "Jogja"). Meski ramai, kamu tak perlu khawatir.
 
-{{< chart data="line-chart" >}}
+Karena warung ini memiliki tempat yang luas baik di dalam ruangan maupun di luar ruangan.
 
-You might also find the [Plotly JSON Editor](http://plotly-json-editor.getforge.io/) useful.
+**4. [Sup Iga Rindu Alam](https://travel.tribunnews.com/tag/sup-iga-rindu-alam "Sup Iga Rindu Alam")**\
+\
+Video unggahan akun @Jogjafooddestination ini telah ditonton 274,9 ribu kali dan disukai oleh 10,9 ribu orang. Sup Iganya hanya dibanderol dengan harga Rp 17.000.
 
-### Math
+Yang paling penting adalah, kamu bisa makan sembari menikmati hamparan sawah yang hijau dan langit biru.
 
-Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the `math` option in your `config/_default/params.toml` file.
+Sup Iga Rindu Alam berada di Jalan Kebon Agung, No. 16, Daplokan, Margamulyo, [Seyegan](https://travel.tribunnews.com/tag/seyegan "Seyegan"), [Sleman](https://travel.tribunnews.com/tag/sleman "Sleman"), [Jogja](https://travel.tribunnews.com/tag/jogja "Jogja"). Tempat ini buka mulai pukul 09.00 hingga 21.00 WIB.
 
-To render *inline* or *block* math, wrap your LaTeX math with `$...$` or `$$...$$`, respectively.
+**5. Lupis Mbah Satinem**\
+\
+Lupis ini tak pernah sepi pembeli, apalagi setelah masuk dalam tayangan Netflix. Pembeli rela antre, bahkan datang sebelum Mbah Satiyem membuka dagangannya.
 
-Example **math block**:
+Harganya pun tergolong murah yakni hanya Rp 10.000 per porsi. Kamu sedang berada di Jogja, bisa datang ke Jalan Bumijo, No. 52-40, Bumijo,  Jetis.
 
-```latex
-$$\gamma_{n} = \frac{ 
-\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
-\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
-{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-```
-
-renders as
-
-$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-
-Example **inline math** `$\nabla F(\mathbf{x}_{n})$` renders as $\nabla F(\mathbf{x}_{n})$.
-
-Example **multi-line math** using the `\\\\` math linebreak:
-
-```latex
-$$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\\\
-1-p_{0}^{*} & \text{if }k=0.\end{cases}$$
-```
-
-renders as
-
-$$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\\\
-1-p_{0}^{*} & \text{if }k=0.\end{cases}$$
-
-### Diagrams
-
-Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the `diagram` option in your `config/_default/params.toml` file or by adding `diagram: true` to your page front matter.
-
-An example **flowchart**:
-
-    ```mermaid
-    graph TD
-    A[Hard] -->|Text| B(Round)
-    B --> C{Decision}
-    C -->|One| D[Result 1]
-    C -->|Two| E[Result 2]
-    ```
-
-renders as
-
-```mermaid
-graph TD
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-An example **sequence diagram**:
-
-    ```mermaid
-    sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    loop Healthcheck
-        John->>John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts!
-    John-->>Alice: Great!
-    John->>Bob: How about you?
-    Bob-->>John: Jolly good!
-    ```
-
-renders as
-
-```mermaid
-sequenceDiagram
-Alice->>John: Hello John, how are you?
-loop Healthcheck
-    John->>John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John-->>Alice: Great!
-John->>Bob: How about you?
-Bob-->>John: Jolly good!
-```
-
-An example **Gantt diagram**:
-
-    ```mermaid
-    gantt
-    section Section
-    Completed :done,    des1, 2014-01-06,2014-01-08
-    Active        :active,  des2, 2014-01-07, 3d
-    Parallel 1   :         des3, after des1, 1d
-    Parallel 2   :         des4, after des1, 1d
-    Parallel 3   :         des5, after des3, 1d
-    Parallel 4   :         des6, after des4, 1d
-    ```
-
-renders as
-
-```mermaid
-gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-```
-
-An example **class diagram**:
-
-    ```mermaid
-    classDiagram
-    Class01 <|-- AveryLongClass : Cool
-    <<interface>> Class01
-    Class09 --> C2 : Where am i?
-    Class09 --* C3
-    Class09 --|> Class07
-    Class07 : equals()
-    Class07 : Object[] elementData
-    Class01 : size()
-    Class01 : int chimp
-    Class01 : int gorilla
-    class Class10 {
-      <<service>>
-      int id
-      size()
-    }
-    ```
-
-renders as
-
-```mermaid
-classDiagram
-Class01 <|-- AveryLongClass : Cool
-<<interface>> Class01
-Class09 --> C2 : Where am i?
-Class09 --* C3
-Class09 --|> Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-class Class10 {
-  <<service>>
-  int id
-  size()
-}
-```
-
-An example **state diagram**:
-
-    ```mermaid
-    stateDiagram
-    [*] --> Still
-    Still --> [*]
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
-    ```
-
-renders as
-
-```mermaid
-stateDiagram
-[*] --> Still
-Still --> [*]
-Still --> Moving
-Moving --> Still
-Moving --> Crash
-Crash --> [*]
-```
-
-### Todo lists
-
-You can even write your todo lists in Academic too:
-
-```markdown
-- [x] Write math example
-- [x] Write diagram example
-- [ ] Do something else
-```
-
-renders as
-
-- [x] Write math example
-- [x] Write diagram example
-- [ ] Do something else
-
-### Tables
-
-Represent your data in tables:
-
-```markdown
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-```
-
-renders as
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-### Callouts
-
-Academic supports a [shortcode for callouts](https://wowchemy.com/docs/content/writing-markdown-latex/#callouts), also referred to as *asides*, *hints*, or *alerts*. By wrapping a paragraph in `{{%/* callout note */%}} ... {{%/* /callout */%}}`, it will render as an aside.
-
-```markdown
-{{%/* callout note */%}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{%/* /callout */%}}
-```
-
-renders as
-
-{{% callout note %}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{% /callout %}}
-
-### Spoilers
-
-Add a spoiler to a page to reveal text, such as an answer to a question, after a button is clicked.
-
-```markdown
-{{</* spoiler text="Click to view the spoiler" */>}}
-You found me!
-{{</* /spoiler */>}}
-```
-
-renders as
-
-{{< spoiler text="Click to view the spoiler" >}} You found me! {{< /spoiler >}}
-
-### Icons
-
-Academic enables you to use a wide range of [icons from _Font Awesome_ and _Academicons_](https://sourcethemes.com/academic/docs/page-builder/#icons) in addition to [emojis](https://sourcethemes.com/academic/docs/writing-markdown-latex/#emojis).
-
-Here are some examples using the `icon` shortcode to render icons:
-
-```markdown
-{{</* icon name="terminal" pack="fas" */>}} Terminal  
-{{</* icon name="python" pack="fab" */>}} Python  
-{{</* icon name="r-project" pack="fab" */>}} R
-```
-
-renders as
-
-{{< icon name="terminal" pack="fas" >}} Terminal  
-{{< icon name="python" pack="fab" >}} Python  
-{{< icon name="r-project" pack="fab" >}} R
-
-### Did you find this page helpful? Consider sharing it 🙌
+<!--EndFragment-->
