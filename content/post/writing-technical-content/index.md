@@ -43,7 +43,7 @@ Karena warung ini memiliki tempat yang luas baik di dalam ruangan maupun di luar
 
 **4. [Sup Iga Rindu Alam](https://travel.tribunnews.com/tag/sup-iga-rindu-alam "Sup Iga Rindu Alam")**\
 \
-Video unggahan akun @Jogjafooddestination ini telah ditonton 274,9 ribu kali dan disukai oleh 10,9 ribu orang. Sup Iganya hanya dibanderol dengan harga Rp 17.000.
+ Sup Iganya hanya dibanderol dengan harga Rp 17.000.
 
 Yang paling penting adalah, kamu bisa makan sembari menikmati hamparan sawah yang hijau dan langit biru.
 
