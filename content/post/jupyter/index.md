@@ -12,6 +12,7 @@ projects: []
 image:
   caption: ""
   focal_point: ""
+  filename: featured.jpg
 ---
 
 
