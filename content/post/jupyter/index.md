@@ -2,10 +2,10 @@
 summary: Learn how to blog in Academic using Jupyter notebooks
 authors:
   - admin
-lastMod: 2019-09-05T00:00:00Z
+lastMod: 2019-09-05T00:00:00.000Z
 title: Cara Setting Totolink N200RE Menjadi Repeater
 subtitle: Cara mudah setting totolnk n200re menjadi repeater sebagai berikut
-date: 2019-02-05T00:00:00Z
+date: 2019-02-05T00:00:00.000Z
 tags: []
 categories: []
 projects: []
@@ -14,35 +14,25 @@ image:
   focal_point: ""
 ---
 
-```python
-from IPython.core.display import Image
-Image('https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png')
-```
 
 
 
+![png](index_1_0.jpg)
 
-![png](./index_1_0.png)
+## Langkah
 
+<!--StartFragment-->
 
+1. Pada menu Operation Mode pilih Repeater (range extender), Apply
+2. Kemudian masuk ke menu Repeater Setup,
 
+   * Pilih enable, 
+   * Setting nama SSID, 
+   *  Scan AP (scan ssid wifi yang akan di repeater), pastikan bisa konek
+   * setting password  wifi repeater
+   * Apply,
 
-```python
-print("Welcome to Academic!")
-```
-
-    Welcome to Academic!
-
-
-## Install Python and JupyterLab
-
-[Install Anaconda](https://www.anaconda.com/distribution/#download-section) which includes Python 3 and JupyterLab.
-
-Alternatively, install JupyterLab with `pip3 install jupyterlab`.
-
-## Create or upload a Jupyter notebook
-
-Run the following commands in your Terminal, substituting `<MY-WEBSITE-FOLDER>` and `<SHORT-POST-TITLE>` with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:
+<!--EndFragment-->
 
 ```bash
 mkdir -p <MY-WEBSITE-FOLDER>/content/post/<SHORT-POST-TITLE>/
@@ -56,7 +46,7 @@ The `jupyter` command above will launch the JupyterLab editor, allowing us to ad
 
 The first cell of your Jupter notebook will contain your post metadata ([front matter](https://sourcethemes.com/academic/docs/front-matter/)).
 
-In Jupter, choose _Markdown_ as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter: 
+In Jupter, choose *Markdown* as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter: 
 
 ```
 ---
