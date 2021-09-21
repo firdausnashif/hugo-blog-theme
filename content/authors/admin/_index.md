@@ -1,6 +1,6 @@
 ---
-title: Muhammad Nashif FIrdaus
-role: Technical Support in CLEON
+title: Dinda Kiran
+role: Traveller | Culinary | MUA
 avatar_filename: pp.jpg
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
